@@ -16,11 +16,11 @@ on:
         required: true
         type: string
       targets:
-        description: 'aarch64_cortex-a53'
+        description: 'mediatek'
         required: false
         type: string
       subtargets:
-        description: 'mediatek/filogic'
+        description: 'filogic'
         required: false
         type: string
 
