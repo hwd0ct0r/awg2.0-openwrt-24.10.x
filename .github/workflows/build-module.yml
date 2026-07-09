@@ -12,15 +12,15 @@ on:
   workflow_dispatch:
     inputs:
       version:
-        description: 'OpenWRT version (e.g., 24.10.5)'
+        description: '24.10.2'
         required: true
         type: string
       targets:
-        description: 'Targets (comma-separated, optional)'
+        description: 'aarch64_cortex-a53'
         required: false
         type: string
       subtargets:
-        description: 'Subtargets (comma-separated, optional)'
+        description: 'mediatek/filogic'
         required: false
         type: string
 
